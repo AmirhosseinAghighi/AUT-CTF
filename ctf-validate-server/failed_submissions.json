@@ -1,0 +1,17 @@
+[
+  {
+    "email": "test@gmail.com",
+    "timestamp": "2024-10-15T17:19:18.169Z",
+    "providedKey": "123"
+  },
+  {
+    "email": "test@gmail.com",
+    "timestamp": "2024-10-15T17:19:43.154Z",
+    "providedKey": "123"
+  },
+  {
+    "email": "test@gmail.com",
+    "timestamp": "2024-10-15T17:19:54.291Z",
+    "providedKey": "123"
+  }
+]
