@@ -17,7 +17,7 @@ function App() {
   const submit = () => {
     setState(0);
     axios
-      .post("https://aut-ctf-server.v2irfilternet.workers.dev/answer", {
+      .post("https://aut-ctf.liara.run/answer", {
         key: keyRef.current?.value,
         email: mailRef.current?.value,
       })
