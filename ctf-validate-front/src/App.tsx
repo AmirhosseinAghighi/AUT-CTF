@@ -1,6 +1,4 @@
-import { FormEventHandler, useRef, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { useRef, useState } from "react";
 import axios from "axios";
 
 function App() {
@@ -31,7 +29,7 @@ function App() {
           setState(1);
         }
       })
-      .catch((err) => {
+      .catch((_err) => {
         setState(-1);
       });
   };
